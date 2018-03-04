@@ -1,0 +1,31 @@
+html, body{
+	height: 100%;
+	background-color: WHITE;
+	width: 100%;
+	padding-top: 10px;
+}
+
+#header {
+	width: 100%;
+	text-align:center;
+	height: 40%;
+}
+img.center {
+  display:inline-block;
+  margin: 0 auto;
+}
+input.in {
+  position: relative;
+  height: 50px;
+  left: 60px;
+  margin-right: 200px;
+  width: 200px;
+  font-size: 25px;
+  float: left;
+}
+textarea.list {
+	position: relative;
+	float: left;
+	width: 200px;
+	height: 100px;
+}

@@ -1,0 +1,23 @@
+<body>
+<br>
+<div id="header">
+  <img src="/assets/capturis-logo.png" alt="Logo" class="center"><br><br><br>
+  <h1><strong>10 Key Assessment Test</strong></h1>
+</div>
+	<div class="input-field">
+  	<br><br><br><br>
+		<input type="text" name="in" class="in" value= "{{input}}" (keyup) = "increment($event)">
+		<textarea name="out" class="list" rows = "3" readonly>
+			{{count[index]}}
+			{{count[index + 1]}}
+			{{count[index + 2]}}
+		</textarea>
+	</div>
+	<br><br>
+</body>
+<script>
+	function key() {
+		document.getElementByID("in").value = "";
+	}
+
+</script>
